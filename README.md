@@ -52,38 +52,27 @@ This repository dives deep into the core pillars of Node.js:
 
 ## 🤣 Node.js & npm Memes (The Culture)
 
+
 ### The `npm install` Experience
-
-
-[USER] npm install
-[COMPUTER] Installing dependencies...
-[USER] waits 5 minutes
-[COMPUTER] Installing 487 packages...
-[USER] sweats nervously
-[COMPUTER] ✅ Installed 487 packages in 3.2s
-[USER] exhales
-[COMPUTER] ⚠️ 1 high severity vulnerability found
-[USER] cries in JavaScript
-[COMPUTER] Run npm audit fix to fix them, or npm audit for details.
-[USER] panics
-[COMPUTER] ✅ Fixed 487 vulnerabilities in 1.2s
-[USER] celebrates
-[COMPUTER] ⚠️ 2 moderate vulnerabilities found...
-
-
+```bash
+[USER]       npm install
+[COMPUTER]   Installing 487 packages...
+[COMPUTER]   ✅ Installed in 3.2s
+[COMPUTER]   ⚠️ 1 high severity vulnerability found
+[USER]       *cries in JavaScript*
+```
 
 ### The "It Works On My Machine" Promise
-│ 🐱 Me: "I built it. It works perfectly." 
-│ 👤 User: "It crashed. Everything is on fire." 
-│ 🐱 Me: runs it on my machine 
-│ 🐱 Me: "Works fine. Did you turn it off?" 
-│ 👤 User: stares blankly 
-│ 
-│ "The developer's curse." — Every coder ever 
-
-
-
----
+```text
+┌──────────────────────────────────────────────────────────┐
+│   🐱 Me:   "I built it. It works perfectly."            │
+│   👤 User: "It crashed. Everything is on fire."         │
+│   🐱 Me:   *runs it on my machine*                      │
+│   🐱 Me:   "Works fine. Did you turn it off?"           │
+│   👤 User: *stares blankly*                             │
+│   "The developer's curse." — Every coder ever           │
+└──────────────────────────────────────────────────────────┘
+```
 
 ## 🚀 Getting Started (The Shinobi Way)
 
@@ -102,14 +91,13 @@ Each subdirectory contains its own focused project with specific instructions. N
 
 
 # 🛠️ Tech Stack (The Shinobi Tools)
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│    ⚡ Node.js    │    📦 npm     │    🗄️  fs Module    │
-│    🔁 Event Loop │    🧵 Threads  │    🌊 Streams      │
-│    🗺️  Path Module│   🔐 Crypto   │   🐱  HTTP Server  │
-│                                                         │
-│          "This is the way." — The Mandalorian           │
-└─────────────────────────────────────────────────────────┘
+| Tech Stack | Concepts |
+| :--- | :--- |
+| ⚡ **Node.js** | 📦 **npm** |
+| 🗄️ **fs Module** | 🔁 **Event Loop** |
+| 🧵 **Threads** | 🌊 **Streams** |
+| 🗺️ **Path Module** | 🔐 **Crypto** |
+| 🐱 **HTTP Server** | 🚀 **"This is the way." — The Mandalorian** |
 
 
 
