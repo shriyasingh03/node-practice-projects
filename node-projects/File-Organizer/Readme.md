@@ -8,10 +8,10 @@
 ![Anime](https://img.shields.io/badge/Anime-Approved-ff69b4?style=for-the-badge)
 
 ---
-<p>
+<p align="center">
 <img src="/coding mems/downloadFolderMem.png" alt="Alt text" width="300" />
 
-  <img src="/coding mems/Aaa.png" alt="Alt text" width="400" style="border-radius: 20px;" />
+  <img src="/coding mems/Aaa.png" alt="Alt text" width="450" style="border-radius: 20px;" />
 </p>
 
 credit : "https://www.facebook.com/groups/it.humor.and.memes/posts/3837665376259218/"
