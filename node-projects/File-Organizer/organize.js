@@ -26,3 +26,29 @@ let fileType = {
 //The Classifier function 
 // making an NVERTED INDEX ({ 'jpg': 'images', 'pdf': 'documents' })
 
+const invertedIndexArray = {};
+
+for (const category in fileType ){
+    let invertedCategory = fileType[category];
+    for (let i=0 ; i<= invertedCategory.length; i++){
+        const finalInvertedCategory = invertedCategory[i];
+        invertedIndexArray[finalInvertedCategory]= category;
+    }
+    // console.log(invertedIndexArray);
+}
+    // console.log(invertedIndexArray);
+
+ //Making everything in invertedIndexArray in lowercase if exist otherwise add 'other'
+
+ const getCategory = (extension)=>{
+   const lowerExtension = extension.toLowerCase();
+   if (invertedIndexArray[lowerExtension]){
+    return invertedIndexArray[lowerExtension];
+   } else {
+        return "other";
+   }
+ }
+
+ // ============================================================
+// 5. PATH PROCESSOR (The "Glue" for spaces)
+// ============================================================
