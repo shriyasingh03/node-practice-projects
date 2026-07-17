@@ -8,8 +8,8 @@
 ![Anime](https://img.shields.io/badge/Anime-Approved-ff69b4?style=for-the-badge)
 
 ---
-```html
-    <table align="center">
+
+<table align="center">
   <tr >
     <td><img src="/coding mems/downloadFolderMem.png" alt="Meme 1" width="300" style="border-radius: 15px;" /></td>
     <td><img src="/coding mems/Aaa.png" alt="Meme 2" width="300" 
@@ -17,7 +17,7 @@
   </tr>
 
 </table>
-```
+
 
 credit : "https://www.facebook.com/groups/it.humor.and.memes/posts/3837665376259218/"
 
