@@ -52,3 +52,20 @@ for (const category in fileType ){
  // ============================================================
 // 5. PATH PROCESSOR (The "Glue" for spaces)
 // ============================================================
+//  * pathProcesser: Reconstructs a path if the user forgot to use quotes.
+//  * Example: If the user types: node organizer.js organizePath only C:/My Docs
+//  * The shell splits it into ['organizePath', 'only', 'C:/My', 'Docs'].
+//  * This function glues 'C:/My' and 'Docs' back into 'C:/My Docs'.
+
+const pathProcesser = ()=>{
+    let constructedPath = "";
+    for (let i =2; i< query.length;i++){
+        if (constructedPath != ''){
+            constructedPath = constructedPath + " " + query[i];
+        }
+        else{
+            constructedPath = query[i];
+        }
+    }
+    return constructedPath;
+}
