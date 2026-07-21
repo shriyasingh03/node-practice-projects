@@ -69,3 +69,18 @@ const pathProcesser = ()=>{
     }
     return constructedPath;
 }
+
+// ============================================================
+// 6. FOLDER CREATOR (Dynamic & Scalable)
+// ============================================================
+let createFolder=(dir) =>{
+    let categories = Object.keys(fileType);
+    categories.push('other');
+
+    for(let i = 0; i < categories.length;i++){
+          let category = categories[i];
+          
+          let folderPath = path.join(dir, 'organized', category);
+          fs.mkdirSync(folderPath,{recursive: true});
+    }
+}
